@@ -1,0 +1,100 @@
+.elipseContain {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 5% 0 5%;
+}
+
+.elipses {
+    filter: grayscale();
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+}
+
+.elipses img {
+    width: 100%;
+}
+
+.elipses p {
+    color: white;
+    font-family: var(--body);
+    font-weight: 300;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+}
+
+.elipses:hover {
+    transition-duration: 500ms;
+    transform: translateY(-10px);
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.une  {
+    animation: opacity 2.2s;
+}
+
+.deux {
+    animation: opacity2 2.7s;
+}
+.trois {
+    animation: opacity3 3.2s;
+}
+.quatres{
+    animation: opacity4 3.7s;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+      } 
+      50% {opacity: 0;}
+      100%{
+        opacity: 1;
+      }
+}
+
+@keyframes opacity2 {
+    0% {
+        opacity: 0;
+      } 
+      50% {opacity: 0;}
+      100%{
+        opacity: 1;
+      }
+}
+
+@keyframes opacity3 {
+    0% {
+        opacity: 0;
+      } 
+      50% {opacity: 0;}
+      100%{
+        opacity: 1;
+      }
+}
+
+@keyframes opacity4 {
+    0% {
+        opacity: 0;
+      } 
+      50% {opacity: 0;}
+      100%{
+        opacity: 1;
+      }
+}
+@media screen and (max-width: 450px) {
+
+    .elipseContain {
+        margin: 0 5% 0 5%;
+    }
+    .elipses p {
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+}
