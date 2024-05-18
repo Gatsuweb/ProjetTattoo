@@ -1,0 +1,23 @@
+.soinContainer {
+    background-color: black;
+    
+}
+
+.soinContent h2 {
+    color: white;
+    text-align: center;
+    font-family: var(--subheading);
+    font-weight: 300;
+    font-size: 6.7rem;
+    border-bottom: 1px solid white;
+    margin: 0 10%;
+    padding-bottom: 3%;
+}
+.listSoin{
+    text-align: center;
+    padding-top: 6%;
+    color: white;
+    font-family: var(--body);
+    font-size: 1.5rem;
+    font-weight: 200;
+}

@@ -10,7 +10,7 @@ function MainContent() {
             </div>
             <div className="contain-rdv">
                 <button className="btn-rdv">
-                    <span>Prendre RDV</span>
+                    <span>Contact</span>
                     <img src= {Fleche} alt="" id="flecheBtn" />
                 </button>
             </div>

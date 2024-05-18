@@ -2,20 +2,21 @@
     background-color: black;
 }
 
-.aboutContent {
+.aboutContent, .service {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 14%;
-    padding-top: 5%;
-    gap: 150px;
+    margin: 0 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    gap: 100px;
 }
 
 .aboutContent p {
-    padding-top: 5%;
+    padding-top: 6%;
     color: white;
     font-family: var(--body);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 200;
     text-align: center;
     
@@ -23,8 +24,8 @@
 
 .aboutContent img {
     filter: grayscale();
-    height: 600px;
-    width: 450px;
+    height: 700px;
+    width: 550px;
     filter: grayscale();
     transition: .3s ease-in-out;
     animation: fade-in linear;
@@ -36,17 +37,87 @@
 .aboutContent img:hover {
     filter: grayscale(10%);
 }
+
 .aboutContent h2 {
     color: white;
     text-align: center;
     font-family: var(--subheading);
     font-weight: 300;
-    font-size: 4.5rem;
+    font-size: 6.7rem;
     border-bottom: 1px solid white;
     margin: 0 10%;
     padding-bottom: 3%;
 }
 
+#quiSuisJe {
+    width: 40%;
+    overflow-wrap: break-word;
+}
+
+.containerp {
+    margin-top: 5%;
+    overflow: hidden;
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    word-wrap: break-word;
+}
+
+.whitep {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    white-space: nowrap;
+    animation: scrollLeft 20s linear infinite;
+    margin: 8px 0 8px 0;
+}
+
+.insta {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-family: var(--body);
+    font-weight: 500;
+    font-size: 1.1rem
+}
+
+#pAnim {
+    color: white;
+    font-family: var(--subheading);
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.service img {
+    margin-top: 0;
+    padding-top: 0;
+    height: 700px;
+    width: 900px;
+}
+
+.services-txt {
+    display: flex;
+    word-wrap: break-word;
+    margin-bottom: 5%;
+}
+
+.prez-services {
+    display: flex;
+}
+
+.prez-services img {
+    height: 340px;
+    width: 240px;
+}
+
+@keyframes scrollLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
 @keyframes fade-in {
     from {scale: .6; opacity: 0; }
     to {scale: 1; opacity: 1;}

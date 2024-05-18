@@ -17,11 +17,12 @@ function NavBar() {
         </Link>
         <div className={`pages ${isOpen ? "open" : ""}`}>
           <ul>
-            <li>Services</li>
-            <li>Tarifs</li>
+            <li>Accueil</li>
             <Link to="/galerie" className="navLink">
             <li>Galerie</li>
             </Link>
+            <li>Flash</li>
+
             <li>Contact</li>
           </ul>
         </div>

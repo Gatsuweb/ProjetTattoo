@@ -1,34 +1,35 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "../styles/Galerie.css";
-import Colo1 from "../assets/colo1.jpg";
-import Colo2 from "../assets/colo2.jpg";
-import Colo3 from "../assets/colo3.jpg";
-import Colo4 from "../assets/colo4.jpg";
-import Gris1 from "../assets/gris1.jpg";
-import Gris2 from "../assets/gris2.jpg";
-import Gris3 from "../assets/gris3.jpg";
-import Gris4 from "../assets/gris4.jpg";
-import Gris5 from "../assets/gris5.jpg";
+// import Colo1 from "../assets/colo1.jpg";
+// import Colo2 from "../assets/colo2.jpg";
+// import Colo3 from "../assets/colo3.jpg";
+// import Colo4 from "../assets/colo4.jpg";
+// import Gris1 from "../assets/gris1.jpg";
+// import Gris2 from "../assets/gris2.jpg";
+// import Gris3 from "../assets/gris3.jpg";
+// import Gris4 from "../assets/gris4.jpg";
+// import Gris5 from "../assets/gris5.jpg";
 import NavBar from "../components/NavBar";
+import Test from "../components/Test";
+import Grid from "../components/Grid";
 
 function Galerie() {
-  const [imageAgrandie, setImageAgrandie] = useState(null);
+  // const [imageAgrandie, setImageAgrandie] = useState(null);
 
-  const handleClick = (url) => {
-    setImageAgrandie(url);
-  };
+  // const handleClick = (url) => {
+  //   setImageAgrandie(url);
+  // };
 
-  const handleClose = () => {
-    setImageAgrandie(null);
-  };
+  // const handleClose = () => {
+  //   setImageAgrandie(null);
+  // };
 
   return (
     <section className="galerieContainer">
       <header>
         <NavBar />
-        <h1 className="galerie-title">Galerie</h1>
       </header>
-      <main className="galerieContent">
+      {/* <main className="galerieContent">
         <div className="container1">
           <img src={Colo1} alt="" onClick={() => handleClick(Colo1)} />
           <img src={Gris1} alt="" onClick={() => handleClick(Gris1)} />
@@ -62,8 +63,13 @@ function Galerie() {
             <img src={imageAgrandie} alt="" />
           </div>
         </div>
-      )}
+      )} */}
+      <div>
+      <Test />
+      <Grid />
+    </div>
     </section>
+
   );
 }
 
