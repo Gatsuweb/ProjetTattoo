@@ -83,7 +83,7 @@ function Faq( props) {
 
         <div className="faq-container">
           <h3 className="questions" id="question-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit ?
+            Lorem ipsum dolor sit amet elit ?
           </h3>
           <button
             type="button"
@@ -104,7 +104,7 @@ function Faq( props) {
         </div>
         <div className="faq-container">
           <h3 className="questions" id="question-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit ?
+          Lorem ipsum dolor sit amet ?
           </h3>
           <button
             type="button"

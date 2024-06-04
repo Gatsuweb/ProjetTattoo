@@ -22,12 +22,13 @@ function NavBar() {
             <li>Galerie</li>
             </Link>
             <li>Flash</li>
-
+            <Link to="/contact" className="navLink">
             <li>Contact</li>
+            </Link>
           </ul>
         </div>
             <div className="burger" onClick={toggleMenu}><img src= {IconeBurger} alt="" className="iconeburger"/></div>
-        </section>
+      </section>
     )
 }
 

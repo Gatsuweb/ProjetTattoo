@@ -39,6 +39,7 @@
     font-weight: 500;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 

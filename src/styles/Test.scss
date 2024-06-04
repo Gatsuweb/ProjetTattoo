@@ -22,11 +22,13 @@
             text-align: center;
             margin-top: 10px;
         }
+        
     }
     .plane{
         width: 100%;
         height: 100%;
         position: absolute;
+        cursor: pointer;
         img{
             position: absolute;
             filter: grayscale(100%);
@@ -83,4 +85,5 @@
             }
         }
     }
+    
 }

@@ -5,6 +5,7 @@ import App from "./App";
 import Home from "./pages/Home";
 import './index.css'
 import Galerie from './pages/Galerie';
+import Contact from './components/Contact';
 
 
 const router = createBrowserRouter([
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/galerie", element: <Galerie /> },
+      { path: "/contact", element: <Contact /> },
     ],
   },
 ]);

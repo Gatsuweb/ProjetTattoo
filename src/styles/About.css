@@ -137,6 +137,17 @@
     }
 
     .aboutContent h2 {
-        font-size: 3.8rem;
+        font-size: 5.8rem;
+    }
+
+    #quiSuisJe {
+        width: 100%;
+    }
+    .service img {
+        height: 100%;
+        width: 100%;
+    }
+    .prez-services img {
+        display: none;
     }
 }

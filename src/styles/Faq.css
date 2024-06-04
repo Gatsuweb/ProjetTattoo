@@ -23,12 +23,12 @@
   .faq-container {
     background-color: rgba(217, 217, 217, 0.1);
     margin: 0.3% 0%;
-    width: 100vh;
+    width: 50%;
     color: #ffffff;
     border-radius: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 1.5% 4% 1.5% 5%;
+    padding: 1.5% 4% 1.5% 4%;
   }
   
   .questions {
@@ -63,3 +63,28 @@
     color: var(--gold);
   }
   
+  @media screen and (max-width: 750px) {
+    .questions{
+      font-size: 1.1rem;
+      padding: 10px 10px;
+    }
+    .reponse{
+      font-size: 1rem
+    }
+    .faq-container {
+      width: 80%;
+    }
+
+    .img-flechebas{
+      width: 20px;
+      height: 12px;
+      padding-right: 5px;
+
+    }
+    .title-faq {
+      font-size: 5.8rem;
+    }
+    .container-faq{
+      margin-top: 10%;
+    }
+  }

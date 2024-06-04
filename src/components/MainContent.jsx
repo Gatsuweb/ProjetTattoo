@@ -9,7 +9,7 @@ function MainContent() {
                 <h3>Ancrer son histoire ou encrer l’instant</h3>
             </div>
             <div className="contain-rdv">
-                <button className="btn-rdv">
+                <button className="btn-rdv" type="button">
                     <span>Contact</span>
                     <img src= {Fleche} alt="" id="flecheBtn" />
                 </button>
