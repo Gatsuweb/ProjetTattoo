@@ -1,7 +1,9 @@
 .elipseContain {
     display: flex;
     justify-content: space-around;
-    margin: 5% 5% 0 5%;
+    margin: 7% 5% 5% 5%;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="none" stroke="white" stroke-width="2"/></svg>') 16 16, pointer;
+
 }
 
 .elipses {
@@ -33,6 +35,8 @@
     transform: translateY(-10px);
     -webkit-filter: grayscale(0);
 	filter: grayscale(0);
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="none" stroke="black" stroke-width="2"/></svg>') 16 16, pointer;
+
 }
 
 .une  {
@@ -88,13 +92,44 @@
         opacity: 1;
       }
 }
+
+@media screen and (max-width: 1640px) {
+
+    .elipseContain {
+        margin: 4% 5% 5% 5%;
+    }
+
+    .elipses p {
+        font-size: 1rem;
+        font-weight: 400;
+        left: 45%;
+    }
+
+    .elipses img {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1024px) {
+
+    .elipseContain {
+        margin: 0 5% 15% 5%;
+    }
+    .elipses p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+
 @media screen and (max-width: 450px) {
 
     .elipseContain {
-        margin: 0 5% 0 5%;
+        margin: 0 5% 25% 5%;
+    }
+    .elipses {
+        margin: 4px;
     }
     .elipses p {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         font-weight: 500;
     }
 }

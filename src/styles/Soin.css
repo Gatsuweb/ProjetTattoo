@@ -1,8 +1,15 @@
 .soinContainer {
     background-color: black;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="none" stroke="white" stroke-width="2"/></svg>') 16 16, pointer;
+
     
 }
+.soinContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
 .soinContent h2 {
     color: white;
     text-align: center;
@@ -10,11 +17,11 @@
     font-weight: 300;
     font-size: 6.7rem;
     border-bottom: 1px solid white;
-    margin: 0 10%;
-    padding-bottom: 3%;
+    margin: 0 10% 2% 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 .listSoin{
-    text-align: center;
     padding-top: 6%;
     color: white;
     font-family: var(--body);
@@ -22,8 +29,32 @@
     font-weight: 200;
 }
 
-@media screen and (max-width: 750px) {
+.ficheSoin {
+    border-radius: 20px;
+    height: 950px;
+    width: 725px;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="none" stroke="black" stroke-width="2"/></svg>') 16 16, pointer;
+
+}
+
+@media screen and (max-width: 1024px) {
     .soinContent h2 {
         font-size: 5.8rem;
+    }
+    .ficheSoin {
+        border-radius: 20px;
+        height: 750px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .soinContent h2 {
+        font-size: 4rem;
+    }
+    .ficheSoin {
+        border-radius: 20px;
+        height: 525px;
+        width: 325px;
     }
 }

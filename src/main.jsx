@@ -5,15 +5,19 @@ import App from "./App";
 import Home from "./pages/Home";
 import './index.css'
 import Galerie from './pages/Galerie';
-import Contact from './components/Contact';
+import Contact from './pages/Contact';
+import Flash from './pages/Flash';
+import Preloader from './components/Preloader';
 
 
 const router = createBrowserRouter([
   {
     element: <App />,
     children: [
-      { path: "/", element: <Home /> },
+      { path: "/", element: <Preloader /> },
+      { path: "/Home", element: <Home /> },
       { path: "/galerie", element: <Galerie /> },
+      { path: "/flash", element: <Flash /> },
       { path: "/contact", element: <Contact /> },
     ],
   },

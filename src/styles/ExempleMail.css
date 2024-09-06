@@ -1,0 +1,74 @@
+.exemple-mail {
+    width: 40%;
+}
+
+.exemple-mail p {
+    margin-top: 3%;
+}
+
+.exemple-mail span {
+    font-family: var(--subheading);
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.exemple-mail h2 {
+    font-family: var(--subheading);
+    color: white;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.exemple-mail p {
+    font-family: var(--body);
+    color: white;
+    font-size: 0.95rem;
+}
+
+.inspi-mail {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .exemple-mail {
+        width: 80%;
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .exemple-mail span {
+        font-size: 2rem;
+    }
+    .exemple-mail p {
+        font-size: 1rem;
+    }
+    .inspi-mail {
+        justify-content: center;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .exemple-mail {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .exemple-mail h2 {
+        font-size: 3rem;
+        margin-bottom: 5%;
+    }
+
+    .inspi-mail {
+        justify-content: center;
+        margin-top: 5%;
+    }
+}

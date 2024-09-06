@@ -3,3 +3,7 @@
     padding: 0;
     scrollbar-color: rgb(0, 0, 0) rgb(49, 49, 49);
 }
+
+body{
+    background-color: black;
+}

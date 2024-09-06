@@ -12,17 +12,21 @@ function NavBar() {
   
     return (
       <section className="navbar">
-        <Link to="/" className="navLink">
+        <Link to="/home" className="navLink">
         <div className="Logo">Valkyr ink</div>
         </Link>
         <div className={`pages ${isOpen ? "open" : ""}`}>
           <ul>
+            <Link to="/home" className="navLink">
             <li>Accueil</li>
+            </Link>
             <Link to="/galerie" className="navLink">
             <li>Galerie</li>
             </Link>
+            <Link to="/flash" className="navLink">
             <li>Flash</li>
-            <Link to="/contact" className="navLink">
+            </Link>
+            <Link to="/contact" className="navLink" >
             <li>Contact</li>
             </Link>
           </ul>

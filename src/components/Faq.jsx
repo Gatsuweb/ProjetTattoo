@@ -83,7 +83,7 @@ function Faq( props) {
 
         <div className="faq-container">
           <h3 className="questions" id="question-3">
-            Lorem ipsum dolor sit amet elit ?
+            Quel est le prix d'un tatouage ?
           </h3>
           <button
             type="button"
@@ -98,13 +98,16 @@ function Faq( props) {
           </button>
           {isReponseVisible["question-3"] && (
             <div className="reponse">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              L'ouverture d'aiguille est à 80€. Etant donné que chaque tatouage est unique selon l'emplacement, la taille, le motif et les details le prix peut varier.<br />
+              Donc, le prix est au cas par cas, d'où l'importance de faire un devis.<br />
+              Lors d'évènements ou semaine / week-end flash, le prix minimum peut atteindre 50€.
+
             </div>
           )}
         </div>
         <div className="faq-container">
           <h3 className="questions" id="question-4">
-          Lorem ipsum dolor sit amet ?
+          Est-ce que je fais des tatouages en couleur ?
           </h3>
           <button
             type="button"
@@ -118,7 +121,8 @@ function Faq( props) {
             />
           </button>
           {isReponseVisible["question-4"] && (
-            <div className="reponse">Oui</div>
+            <div className="reponse">Oui, selon le projet. <br />
+             Précisez le moi dans votre demande de projet et je vous dirais si c'est possible.</div>
           )}
         </div>
       </div>

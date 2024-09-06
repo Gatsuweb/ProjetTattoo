@@ -1,0 +1,131 @@
+
+/* TransitionPage.css */
+.transition-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff; /* Couleur de fond */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9998;
+  }
+  
+  .logo {
+    width: 600px;
+    /* animation: fadein 4s ease-in-out; */
+     /* Animation d'apparition */
+  }
+  
+  /* @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+   */
+  .barcontainer {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    display: flex;
+  }
+
+  .barcontainer::after {
+    content: 'Valkyr ink';
+    font-weight: 100;
+    font-family: var(--subheading);
+    color: #ffffff;
+    opacity: 0;
+    font-size: 10rem;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    animation: title 2s ease-in-out;
+    animation-delay: 4s;
+  }
+
+  @keyframes title {
+    from { transform: translateX(-500); }
+    to { opacity: 1; transform: translateY(0%);}
+  }
+
+  .bar {
+    width: 10vw;
+    height: 105vh;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .bar:first-child {
+    animation: letsgo 2.5s ease-in-out;
+    animation-delay: 0.4s;
+  }
+
+  .bar:nth-child(2) {
+    animation: letsgo 2.5s ease-in-out;
+    animation-delay: 0.8s;
+  }
+  .bar:nth-child(3) {
+    animation: letsgo 2.5s ease-in-out;
+    animation-delay: 1s;
+  }
+  .bar:nth-child(4) {
+    animation: letsgo 2.5s ease-in-out;
+    animation-delay: 1.2s;
+  }
+  .bar:nth-child(5) {
+    animation: letsgo 2.5s ease-in-out;
+    animation-delay: 1.4s;
+  }
+  .bar:nth-child(6) {
+    animation: letsgo 2.5s ease-in-out;
+    animation-delay: 1.6s;
+  }
+  .bar:nth-child(7) {
+    animation: letsgo 2.5s ease-in-out;
+    animation-delay: 1.8s;
+  }
+  .bar:nth-child(8) {
+    animation: letsgo 2.5s ease-in-out;
+    animation-delay: 2s;
+  }
+  .bar:nth-child(9) {
+    animation: letsgo 2.5s ease-in-out;
+    animation-delay: 2.2s;
+  }
+  .bar:last-child {
+    animation: letsgo 2.5s ease-in-out;
+    animation-delay: 2.4s;
+  }
+  
+  @keyframes letsgo {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-100%);}
+  }
+
+  @media screen and (max-width: 1640px) {
+    .barcontainer::after {
+      left: 30%;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .barcontainer::after {
+      left: 30%;
+      font-size: 5rem;
+    }
+    .logo {
+      width: 500px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .barcontainer::after {
+      left: 20%;
+      font-size: 4rem;
+    }
+    .logo {
+      width: 300px;
+    }
+  }

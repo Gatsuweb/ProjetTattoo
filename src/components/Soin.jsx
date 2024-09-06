@@ -1,20 +1,26 @@
 import PropTypes from "prop-types";
 import "../styles/Soin.css"
+import FicheSoin from "../assets/contact/fiche_de_soin.jpg"
 
 function Soin(props) {
+    // const handleDownload = () => {
+    //     const imagePath = '../assets/contact/fiche_de_soin.jpg';
+    //     const link = document.createElement('a');
+    //     link.href = imagePath;
+    //     link.download = 'fiche_de_soin.jpg';
+    //     link.click();
+    //     document.body.removeChild(link);
+    //   };
+
     const {soinRef} = props
     return (
         <section className="soinContainer" ref={soinRef}>
             <div className="soinContent">
                 <h2>SOIN</h2>
-                <ul className="listSoin">
-                    <li>Fait ça</li>
-                    <li>Fait ci</li>
-                    <li>Puis ça</li>
-                    <li>Et encore ça</li>
-                    <li>Et pas de soleil</li>
-                    <li>Et pas de mer</li>
-                </ul>
+                {/* <button onClick={handleDownload} style={{ marginLeft: '10px' }}>
+          Télécharger l'image
+        </button> */}
+                   <img src={FicheSoin} alt="" className="ficheSoin"/>
             </div>
         </section>
     )

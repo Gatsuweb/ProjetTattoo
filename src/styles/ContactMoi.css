@@ -1,0 +1,34 @@
+.contacteMoi-container h2{
+    font-family: var(--subheading);
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.contacteMoi-container p {
+    font-family: var(--body);
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+}
+
+.spline-contact {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 0 25%;
+
+}
+.mailspline, .instaspline {
+    height: 150px;
+    width: 150px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .spline-contact {
+        margin: 0 10%;
+        gap: 50px;
+    }
+}

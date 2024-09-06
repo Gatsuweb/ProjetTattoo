@@ -1,30 +1,30 @@
 .aboutContain {
     background-color: black;
-}
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="none" stroke="white" stroke-width="2"/></svg>') 16 16, pointer;
 
-.aboutContent, .service {
+}
+.service {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 5%;
-    padding-top: 3%;
+    padding-top: 5%;
     padding-bottom: 5%;
     gap: 100px;
 }
 
 .aboutContent p {
-    padding-top: 6%;
     color: white;
     font-family: var(--body);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 200;
-    text-align: center;
+    text-align: justify;
     
 }
 
 .aboutContent img {
     filter: grayscale();
-    height: 700px;
+    height: 680px;
     width: 550px;
     filter: grayscale();
     transition: .3s ease-in-out;
@@ -35,7 +35,11 @@
 }
 
 .aboutContent img:hover {
-    filter: grayscale(10%);
+    filter: none;
+}
+
+#service-txt h2 {
+    font-size: 6.7rem;
 }
 
 .aboutContent h2 {
@@ -45,15 +49,23 @@
     font-weight: 300;
     font-size: 6.7rem;
     border-bottom: 1px solid white;
-    margin: 0 10%;
-    padding-bottom: 3%;
+    margin: 0 10% 2% 10%;
+    padding-bottom: 1%;
+    padding-top: 2%;
 }
 
 #quiSuisJe {
-    width: 40%;
+    display: flex;
+    gap: 100px;
     overflow-wrap: break-word;
+    margin: 0 5%;
 }
 
+#quiSuisJe span {
+    font-family: var(--subheading);
+    font-weight: 300;
+    font-size: 3rem;
+}
 .containerp {
     margin-top: 5%;
     overflow: hidden;
@@ -89,16 +101,9 @@
 }
 
 .service img {
-    margin-top: 0;
-    padding-top: 0;
+    padding-top: 1%;
     height: 700px;
     width: 900px;
-}
-
-.services-txt {
-    display: flex;
-    word-wrap: break-word;
-    margin-bottom: 5%;
 }
 
 .prez-services {
@@ -123,29 +128,87 @@
     to {scale: 1; opacity: 1;}
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1640px) {
     .aboutContent {
-        flex-direction: column;
         gap: 50px;
         margin: 0 5%;
-        padding-top: 10%;
+        padding-top: 3%;
     }
 
     .aboutContent img {
-        width: 100%;
-        height: auto;
+        width: 40%;
+        padding-top: 2%;
+
+        height: 40%;
+    }
+
+    .aboutContent p {
+        padding-top: 2%;
+        font-size: 1rem;
     }
 
     .aboutContent h2 {
-        font-size: 5.8rem;
+        font-size: 5.5rem;
     }
 
     #quiSuisJe {
-        width: 100%;
+        margin: 0 2%;
+        gap: 50px;
+    }
+    .service img {
+        height: 100%;
+        width: 70%;
+    }
+
+    .service {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    }
+    .prez-services img {
+        margin-left: 2%;
+        width: 30%;
+    }
+    .prez-services img:nth-child(2) {
+        margin-left: 2%;
+        width: 27%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .aboutContent {
+        gap: 50px;
+        margin: 0 5%;
+        padding-top: 3%;
+    }
+
+    .aboutContent img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .aboutContent p {
+        font-size: 1.1rem;
+    }
+
+    .aboutContent h2 {
+        font-size: 4rem;
+    }
+
+    #service-txt {
+        font-size: 4rem;
+    }
+
+    #quiSuisJe {
+        flex-direction: column;
+        align-items: center;
     }
     .service img {
         height: 100%;
         width: 100%;
+    }
+
+    .service {
+        flex-direction: column;
     }
     .prez-services img {
         display: none;

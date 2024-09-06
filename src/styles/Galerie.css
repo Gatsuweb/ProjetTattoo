@@ -1,9 +1,8 @@
-.galerieContainer {
-    background-color: black;
-    overflow: hidden;
-}
+/* .inner::-webkit-scrollbar {
+    display: none;
+  } */
 
-.galerie-title {
+/* .galerie-title {
     font-family: var(--subheading);
     color: white;
     text-align: center;
@@ -12,8 +11,7 @@
     margin: 2% 20% 0 20%;
     padding-bottom: 1%;
     border-bottom: 1px solid white;
-
-}
+} 
 
 .galerieContent {
     display: flex;
@@ -58,4 +56,4 @@
     height: 700px;
     max-width: 100%; 
     max-height: 100%;
-  }
+  } */

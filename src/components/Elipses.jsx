@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
-import Elipse3 from "../assets/Ellipse3color.svg";
-import Elipse4 from "../assets/Ellipse4.svg";
-import Elipse5 from '../assets/Ellipse5.svg'
-import Elipse6 from '../assets/Ellipse6.svg'
+import Elipse3 from "../assets/imgsoin.svg";
+import Elipse4 from "../assets/imgfaq.svg";
+import Elipse5 from '../assets/imageservice.svg'
+import Elipse6 from '../assets/Ellipse5.svg'
 
 import "../styles/Elipse.css";
 
