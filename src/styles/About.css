@@ -214,3 +214,45 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .aboutContent {
+        gap: 50px;
+        margin: 0 5%;
+        padding-top: 3%;
+    }
+
+    .aboutContent img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .aboutContent p {
+        font-size: 1.1rem;
+        margin: 0 5%;
+    }
+
+    .aboutContent h2 {
+        font-size: 2.2rem;
+    }
+
+    #service-txt h2  {
+        font-size: 4rem;
+    }
+
+    #quiSuisJe {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .service {
+        flex-direction: column;
+    }
+    .prez-services img {
+        display: none;
+    }
+}
