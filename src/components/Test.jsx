@@ -85,12 +85,6 @@ function Test() {
     return (
         <main onMouseMove={manageMouseMove} className="main">
             <div ref={plane1} className="plane">
-                <div className="tattoovideo">
-            <video autoPlay muted loop width="320" height="240">
-    <source src="../assets/galerie2/vidfelix.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-</video>
-</div>
                 {tattooData.map((tattoo, index) => (
                     <img
                         key={index}
