@@ -6,7 +6,7 @@ import "../styles/BackgroundVideo.css";
 const BackgroundVideo = () => {
   return (
     <div className="video-background">
-    <video autoPlay muted loop className="background-video">
+    <video autoPlay muted loop playsInline className="background-video">
       <source src={VideoMp4} type="video/mp4" />
       <source src={VideoWebm} type="video/webm" />
       Votre navigateur ne supporte pas la lecture des vidéos.
