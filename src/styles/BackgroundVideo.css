@@ -22,6 +22,24 @@ video {
   filter: grayscale();
 }
 
+.fallback-image {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  filter: grayscale();
+}
+
+.fallback-image {
+  display: none;
+}
+
 
  @media (max-width: 1024px) {
   .video-background {
@@ -36,4 +54,12 @@ video {
     object-fit: cover;
     transform: translate(-50%, -50%);
   }
+  .background-video {
+    display: none;
+  }
+
+  .fallback-image {
+    display: block;
+  }
+  
 } 
