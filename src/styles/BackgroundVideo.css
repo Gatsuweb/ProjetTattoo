@@ -22,7 +22,7 @@ video {
   filter: grayscale();
 }
 
-.fallback-image {
+/* .fallback-image {
   position: absolute;
   top: 45%;
   left: 40%;
@@ -38,7 +38,7 @@ video {
 
 .fallback-image {
   display: none;
-}
+} */
 
 
  @media (max-width: 1024px) {
@@ -54,12 +54,12 @@ video {
     object-fit: cover;
     transform: translate(-50%, -50%);
   }
-  .background-video {
+  /* .background-video {
     display: none;
   }
 
   .fallback-image {
     display: block;
-  }
+  } */
   
 } 
