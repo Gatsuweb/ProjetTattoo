@@ -1,16 +1,28 @@
+import { useEffect, useRef } from 'react';
+
 import VideoMp4 from "../assets/vid4.mp4";
-import VideoMov from "../assets/vid4.mov";
 import VideoWebm from "../assets/vid4.webm";
 // import FallbackImage from "../assets/fallback.png";
 import "../styles/BackgroundVideo.css";
 
 const BackgroundVideo = () => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      video.muted = true; // Assure que la vidéo est bien en mode silencieux
+      video.play().catch(error => {
+        console.error('Autoplay a été bloqué', error);
+      });
+    }
+  }, []);
+
   return (
     <div className="video-background">
-    <video autoPlay muted loop playsInline controls={false}  className="background-video">
+    <video ref={videoRef} autoPlay muted loop playsInline controls={false}  className="background-video">
       <source src={VideoMp4} type="video/mp4" />
       <source src={VideoWebm} type="video/webm" />
-      <source src={VideoMov} type="video/mov" />
       Votre navigateur ne supporte pas la lecture des vidéos.
     </video>
     {/* <img
