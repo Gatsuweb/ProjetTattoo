@@ -100,7 +100,7 @@
   @media screen and (max-width: 1640px) {
     .barcontainer::after {
       left: 30%;
-      font-size: 5rem;
+      font-size: 7rem;
     }
   }
 
