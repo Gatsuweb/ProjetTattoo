@@ -25,6 +25,10 @@ video {
   filter: grayscale();
 }
 
+video::-webkit-media-controls {
+  display: none !important;
+}
+
 /* .fallback-image {
   position: absolute;
   top: 45%;

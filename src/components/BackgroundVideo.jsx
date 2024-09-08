@@ -7,7 +7,7 @@ import "../styles/BackgroundVideo.css";
 const BackgroundVideo = () => {
   return (
     <div className="video-background">
-    <video autoPlay muted loop className="background-video">
+    <video autoPlay muted loop playsInline controls={false}  className="background-video">
       <source src={VideoMp4} type="video/mp4" />
       <source src={VideoWebm} type="video/webm" />
       <source src={VideoMov} type="video/mov" />
