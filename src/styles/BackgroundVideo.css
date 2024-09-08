@@ -1,4 +1,7 @@
 .video-background {
+  background-image: url("/src/assets/fallback2.png");
+  background-size: cover;
+  filter: grayscale();
   position: fixed;
   top: 0;
   left: 0;
@@ -41,9 +44,10 @@ video {
 } */
 
 
- @media (max-width: 1024px) {
+ @media (max-width: 1025px) {
   .video-background {
     height: 100%;
+    background-position: top;
   }
 
   video {
