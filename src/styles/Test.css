@@ -132,7 +132,7 @@
     left: 42%;
     top: 55%;
 }
-.tattoovideo {
+/* .tattoovideo {
     position: fixed;
     top: 0;
     left: 0;
@@ -140,7 +140,7 @@
     height: 1200px;
     z-index: -1;
     overflow: hidden;
-}
+} */
 
 @media (max-width: 1024px) {
     .main .plane:nth-of-type(1) {
