@@ -2,3 +2,8 @@
   for = "*.mp4"
   [headers.values]
     Content-Type = "video/mp4"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
