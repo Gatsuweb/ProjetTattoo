@@ -15,19 +15,19 @@ import Flash1000 from "../assets/flash/flash4.jpg";
 import FlashBis from "../assets/flash/flashbis.jpg";
 
 const cardsData = [
-  { image: Flash21, alt: "Un griffon majestueux survolant des montagnes, style gravure ancienne en noir et blanc", name: "" },
-  { image: Flash1, alt: "Un griffon majestueux survolant des montagnes, style gravure ancienne en noir et blanc", name: "" },
-  { image: Flash15, alt: "Un griffon majestueux survolant des montagnes, style gravure ancienne en noir et blanc", name: "" },
-  { image: Flash16, alt: "Un griffon majestueux survolant des montagnes, style gravure ancienne en noir et blanc", name: "" },
-  { image: Flash1000, alt: "Un griffon majestueux survolant des montagnes, style gravure ancienne en noir et blanc", name: "" },
-  { image: Flash4, alt: "Un griffon majestueux survolant des montagnes, style gravure ancienne en noir et blanc", name: "" },
-  { image: FlashBis, alt: "Un griffon majestueux survolant des montagnes, style gravure ancienne en noir et blanc", name: "" },
-  { image: Flash2, alt: "Un griffon majestueux survolant des montagnes, style gravure ancienne en noir et blanc", name: "" },
-  { image: Flash3, alt: "Un griffon majestueux survolant des montagnes, style gravure ancienne en noir et blanc", name: "" },
-  { image: Flash5, alt: "Un griffon majestueux survolant des montagnes, style gravure ancienne en noir et blanc", name: "" },
-  { image: Flash6, alt: "Un griffon majestueux survolant des montagnes, style gravure ancienne en noir et blanc", name: "" },
-  { image: Flash7, alt: "Un griffon majestueux survolant des montagnes, style gravure ancienne en noir et blanc", name: "" },
-  { image: Flash20, alt: "Un griffon majestueux survolant des montagnes, style gravure ancienne en noir et blanc", name: "" },
+  { image: Flash21, alt: "Flash Ghibli" },
+  { image: Flash1, alt: "Flash marin" },
+  { image: Flash15, alt: "Flash Guts" },
+  { image: Flash16, alt: "Flash fonts" },
+  { image: Flash1000, alt: "Flash god hand with Beherit"},
+  { image: Flash4, alt: "Flash nature"},
+  { image: FlashBis, alt: "Flash Berserk" },
+  { image: Flash2, alt: "Flash Ghibli 2" },
+  { image: Flash3, alt: "Flash nature minimalisme" },
+  { image: Flash5, alt: "Flash design minimalisme" },
+  { image: Flash6, alt: "Flash flowers" },
+  { image: Flash7, alt: "Flash design symetrique" },
+  { image: Flash20, alt: "Flash planche Berserk" },
 ];
 
 function GalerieFlash() {
