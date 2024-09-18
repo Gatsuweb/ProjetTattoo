@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import Lenis from 'lenis'
 import About from "../components/About";
 import Elipse from "../components/Elipses";
 import MainContent from "../components/MainContent";
@@ -14,6 +15,19 @@ function Home() {
     const serviceRef = useRef(null);
     const faqRef = useRef(null);
     const soinRef = useRef(null);
+
+    const lenis = new Lenis()
+
+    lenis.on('scroll', (e) => {
+      console.log(e)
+    })
+    
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+      
+      requestAnimationFrame(raf)
 
     const scrollQuiSuisJe = () => {
         aboutRef.current.scrollIntoView({ behavior: 'smooth' });
