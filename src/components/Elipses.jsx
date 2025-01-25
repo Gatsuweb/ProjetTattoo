@@ -21,11 +21,11 @@ function Elipse(props) {
                 </div>
                 <div className="elipses trois" onClick={functionSoinScroll.handleClick}>
                 <img src={Elipse3} alt="" />
-                    <p>Soin</p>
+                    <p>Soins</p>
                 </div>
                 <div className="elipses quatre" onClick={functionFaqScroll.handleClick}>
                 <img src={Elipse4} alt="" />
-                    <p>FAQ</p>
+                    <p>Faq</p>
             </div>
         </section>
     );

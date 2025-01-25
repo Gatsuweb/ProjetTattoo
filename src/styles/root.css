@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @font-face {
-    font-family: 'Chomsky';
-    src: url('/src/fonts/Chomsky.otf') format('woff');
+    font-family: 'Ruri';
+    src: url('/src/fonts/Ruritania.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Copper';
+    src: url('/src/fonts/OPTICopperplate-Light.otf') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 :root {
-    --subheading: "Chomsky", serif;
-    --body: "inter", serif;
+    --subheading: "Ruri";
+    --body: 'Copper';
 }

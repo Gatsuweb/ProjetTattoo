@@ -13,7 +13,7 @@ function Soin(props) {
     return (
         <section className="soinContainer" ref={soinRef}>
             <div className="soinContent">
-                <h2>SOIN</h2>
+                <h2>Soins</h2>
                 <img 
                     src={FicheSoin} 
                     alt="Fiche de soin" 

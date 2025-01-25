@@ -28,4 +28,14 @@
     max-height: 100%;
     display: block;
   }
+
+  .closecroix {
+    position: fixed;
+    font-size: 1.2rem;
+    top: 2%;
+    font-family: var(--body);
+    right: 2%;
+    color: white;
+    z-index: 9999;
+  }
   

@@ -1,4 +1,5 @@
 .galerie-flash {
+  margin-top: 5%;
     width: 100vw;
     height: 94vh;
     cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="12" fill="none" stroke="%23ffffff" stroke-width="2"/></svg>') 16 16, auto;
@@ -9,7 +10,7 @@
     justify-content: center;
     color: #ffffff;
     font-size: 4.5rem;
-    font-family: 'Chomsky', serif;
+    font-family: var(--subheading);
     font-weight: 100;
     padding-top: 2%;
   }

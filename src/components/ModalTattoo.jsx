@@ -4,6 +4,7 @@ import '../styles/ModalTattoo.css';
 const ModalTattoo = ({ image, alt, onClose }) => {
   return (
     <div className="modal-overlay" onClick={onClose}>
+      <span onClick={onClose} className='closecroix'>x</span>
       <div className="modalTattoo-content" onClick={(e) => e.stopPropagation()} >
         <img src={image} alt={alt} className="modalTattoo-image" />
       </div>

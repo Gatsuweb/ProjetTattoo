@@ -19,7 +19,7 @@ function MainContent() {
                     <SplineGravity />
                 </h1>
                 <h1 className="titleClassic">Tattoo Artist.</h1>
-                <h3>Ancrer son histoire ou encrer l’instant</h3>
+                <h3>&quot;Ancrer son histoire ou encrer l’instant&quot;</h3>
             </div>
             <div className="contain-rdv">
                 <p id="date">{getCurrentDate()}.</p>

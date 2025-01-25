@@ -1,0 +1,24 @@
+.carousselContainer{
+margin-top: 2%;
+}
+.carousselContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+}
+
+@media (max-width: 1024px) {
+    .carousselContent{
+        width: 50%;
+     
+    }
+}
+
+
+  @media (max-width: 480px) {
+    .carousselContent{
+       width: 80%;
+    }
+}

@@ -19,9 +19,10 @@
 
 .elipses p {
     color: white;
-    font-family: var(--body);
+    font-family: var(--subheading);
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -100,7 +101,7 @@
     }
 
     .elipses p {
-        font-size: 1rem;
+        font-size: 1.7rem;
         font-weight: 400;
         left: 45%;
     }
@@ -115,8 +116,9 @@
         margin: 0 5% 15% 5%;
     }
     .elipses p {
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: 400;
+        letter-spacing: 1px;
     }
 }
 
@@ -129,7 +131,7 @@
         margin: 4px;
     }
     .elipses p {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         font-weight: 500;
     }
 }

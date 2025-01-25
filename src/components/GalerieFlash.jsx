@@ -58,7 +58,7 @@ function GalerieFlash() {
 
   return (
     <div className="galerie-flash" >
-      <h1>Galerie des Flashs</h1>
+    
       <div className="flash-content">
         <div className="deck">
             {cardsData.map((card, index) => (

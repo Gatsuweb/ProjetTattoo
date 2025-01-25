@@ -15,13 +15,13 @@ const About = React.forwardRef((props, ref) => {
     return (
         <section className="aboutContain">
             <div className="aboutContent" ref={ref}>
-            <h2>Qui se cache derrière Valkyr’Ink ?</h2>
+            <h2>Qui se cache derriere Valkyr Ink ?</h2>
                 <div id="quiSuisJe">
                     <img src={Mel2} alt="" />
-                    <p>« Hey Mel, tu sais dessiner. Tu veux pas me tatouer ? » voilà comment cette folle aventure a commencé. <br/><br/>
+                    <p>« Hey Mel, tu sais dessiner. Tu pourrais me tatouer ? » voilà comment cette folle aventure a commencé. <br/><br/>
 
-                        Je m’appelle Mélanie, j’ai 25 ans et d’aussi loin que je me souvienne j’ai toujours eu un pinceau ou un crayon entre les mains. <br/>
-                        J’ai toujours eu énormément d’inspiration artistique et une grande soif de création. En art plastique j’avais toujours tellement d’idées que la prof m’envoyait les élèves qui étaient en panne d’inspiration.<br/><br/> 
+                        Je m’appelle Mélanie, j’ai 26 ans et d’aussi loin que je me souvienne j’ai toujours eu un pinceau ou un crayon entre les mains. <br/>
+                        J’ai énormément d’inspiration artistique et une grande soif de création. En art plastique j’avais tellement d’idées que la prof m’envoyait les élèves qui étaient en panne d’inspiration.<br/><br/> 
                         Je n’ai pas pu faire mes études dans l’art et me suis donc orientée vers des études littéraires, puis une fac d’anglais. J’ai rapidement arrêté parce que je m’ennuyais. J’ai travaillé dans pleins de domaines différents jusqu’à ce qu’un de mes amis vienne en vacances chez moi avec une machine à tatouer qu’il avait achetée pour le délire et dont il ne savait pas se servir.<br/>
                         Et là, grosse révélation ! J’avais enfin trouvé ma voie. Je me suis donc beaucoup entraînée (merci à toutes ces oranges, à toutes ces fausses peaux mais aussi à mes nombreux cobayes, je ne vous oublie pas) et j’ai passé ma formation hygiène et salubrité en décembre 2023. 
                         J’ai pu bénéficier des précieux conseils et de la connaissance d’excellents tatoueurs avant d’enfin me décider et de me lancer à mon compte.<br/><br/>
@@ -67,7 +67,7 @@ const About = React.forwardRef((props, ref) => {
                         <img src={ImgService3} alt=""/>
                     </div>
                 </div>
-                <img src={ImgService} alt="" />
+                <img src={ImgService} alt=""  className='imgMeltattoo'/>
             </div>
         </section>
     );

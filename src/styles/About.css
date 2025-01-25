@@ -19,7 +19,7 @@
     font-size: 1.1rem;
     font-weight: 200;
     text-align: justify;
-    
+    line-height: 2;
 }
 
 .aboutContent img {
@@ -47,7 +47,7 @@
     text-align: center;
     font-family: var(--subheading);
     font-weight: 300;
-    font-size: 6.7rem;
+    font-size: 6.5rem;
     border-bottom: 1px solid white;
     margin: 0 10% 2% 10%;
     padding-bottom: 1%;
@@ -105,7 +105,9 @@
     height: 700px;
     width: 900px;
 }
-
+.imgMeltattoo {
+    margin-top: 6%;
+}
 .prez-services {
     display: flex;
 }
@@ -148,7 +150,7 @@
     }
 
     .aboutContent h2 {
-        font-size: 5.5rem;
+        font-size: 5.3rem;
     }
 
     #quiSuisJe {
@@ -175,6 +177,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .aboutContain {
+        overflow: hidden;
+    }
     .aboutContent {
         gap: 50px;
         margin: 0 5%;
@@ -191,8 +196,10 @@
     }
 
     .aboutContent h2 {
-        font-size: 4rem;
+        font-size: 3.8rem;
     }
+
+    
 
     #service-txt {
         font-size: 4rem;
@@ -213,13 +220,22 @@
     .prez-services img {
         display: none;
     }
+    .containerp {
+ 
+        width: 1200px;
+
+    }
 }
 
 @media screen and (max-width: 480px) {
     .aboutContent {
         gap: 50px;
-        margin: 0 5%;
+        margin: 0 3%;
         padding-top: 3%;
+     
+    }
+    .aboutContain {
+        overflow: hidden;
     }
 
     .aboutContent img {
@@ -229,7 +245,7 @@
 
     .aboutContent p {
         font-size: 1.1rem;
-        margin: 0 5%;
+        text-align: center;
     }
 
     .aboutContent h2 {
@@ -239,7 +255,12 @@
     #service-txt h2  {
         font-size: 4rem;
     }
+    .containerp {
+ 
+        width: 1000px;
 
+    }
+    
     #quiSuisJe {
         flex-direction: column;
         align-items: center;

@@ -35,7 +35,7 @@ function Faq( props) {
 
   return (
     <section className="faq" ref={faqRef}>
-      <h1 className="title-faq">FAQ</h1>
+      <h1 className="title-faq">Faq</h1>
       <div className="container-faq">
         <div className="faq-container">
           <h3 className="questions" id="question-1">
