@@ -7,7 +7,7 @@ function ExempleMail () {
     <div className="exemple-mail">
         <h2>Exemple de demande</h2>
         <p>
-        <span>Hello Mélanie,</span> <br /><br />
+        <span>Hello Melanie,</span> <br /><br />
         Je suis vers Carhaix en ce moment et je voudrais savoir si vous êtes disponible pour un rendez-vous entre le 23 et le 27 septembre ?<br />
         J’aimerais me faire tatouer le signe astrologique du bélier sur le devant de ma cuisse droite. <br />
         J’ai déjà 3 tatouages sur cette jambe. En pièce jointe, je vous ai envoyé des inspirations de ce que j’aimerais réaliser. <br />

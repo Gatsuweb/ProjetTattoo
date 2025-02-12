@@ -37,14 +37,14 @@ function Faq( props) {
     <section className="faq" ref={faqRef}>
       <h1 className="title-faq">Faq</h1>
       <div className="container-faq">
-        <div className="faq-container">
+        <div className="faq-container"   onClick={() => toggleReponseVisible("question-1")}>
           <h3 className="questions" id="question-1">
             Il y a un age minimum ?
           </h3>
           <button
             type="button"
             className="flechebas"
-            onClick={() => toggleReponseVisible("question-1")}
+          
           >
             <img
               src={flecheTurn["question-1"]}
@@ -59,14 +59,14 @@ function Faq( props) {
           )}
         </div>
 
-        <div className="faq-container">
+        <div className="faq-container" onClick={() => toggleReponseVisible("question-2")}>
           <h3 className="questions" id="question-2">
             Comment prendre rendez-vous ?
           </h3>
           <button
             type="button"
             className="flechebas"
-            onClick={() => toggleReponseVisible("question-2")}
+            
           >
             <img
               src={flecheTurn["question-2"]}
@@ -81,14 +81,14 @@ function Faq( props) {
           )}
         </div>
 
-        <div className="faq-container">
+        <div className="faq-container"  onClick={() => toggleReponseVisible("question-3")}
+        >
           <h3 className="questions" id="question-3">
             Quel est le prix d'un tatouage ?
           </h3>
           <button
             type="button"
             className="flechebas"
-            onClick={() => toggleReponseVisible("question-3")}
           >
             <img
               src={flecheTurn["question-3"]}
@@ -105,14 +105,14 @@ function Faq( props) {
             </div>
           )}
         </div>
-        <div className="faq-container">
+        <div className="faq-container" onClick={() => toggleReponseVisible("question-4")}>
           <h3 className="questions" id="question-4">
           Est-ce que je fais des tatouages en couleur ?
           </h3>
           <button
             type="button"
             className="flechebas"
-            onClick={() => toggleReponseVisible("question-4")}
+            
           >
             <img
               src={flecheTurn["question-4"]}

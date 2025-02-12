@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-around;
     margin: 7% 5% 5% 5%;
-    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="none" stroke="white" stroke-width="2"/></svg>') 16 16, pointer;
+    
+  
 
 }
 
@@ -12,6 +13,7 @@
     cursor: pointer;
     position: relative;
 }
+
 
 .elipses img {
     width: 100%;
@@ -35,8 +37,7 @@
     transition-duration: 500ms;
     transform: translateY(-10px);
     -webkit-filter: grayscale(0);
-	filter: grayscale(0);
-    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="none" stroke="black" stroke-width="2"/></svg>') 16 16, pointer;
+	filter: grayscale(0);  
 
 }
 

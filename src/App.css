@@ -6,4 +6,30 @@
 
 body{
     background-color: black;
+    cursor: url('./assets/urlcursor.png'), pointer;
+
+}
+
+a:hover {
+    cursor: url('./assets/urlcursor.png'), pointer;
+
+}
+
+button:hover {
+    cursor: url('./assets/urlcursor.png'), pointer;
+
+}
+
+img:hover {
+    cursor: url('./assets/urlcursor.png'), pointer;
+
+}
+
+p{
+    cursor: url('./assets/urlcursor.png'), pointer;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    cursor: url('./assets/urlcursor.png'), pointer;
+
 }

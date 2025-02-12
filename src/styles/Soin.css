@@ -1,8 +1,5 @@
 .soinContainer {
-    background-color: black;
-    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="none" stroke="white" stroke-width="2"/></svg>') 16 16, pointer;
-
-    
+    background-color: black;    
 }
 .soinContent {
     display: flex;
@@ -75,6 +72,12 @@
     border: none;
     cursor: pointer;
     color: #000;
+}
+
+@media screen and (max-width: 1600px) {
+    .soinContent h2 {
+        font-size: 4.5rem;
+    }
 }
 
 

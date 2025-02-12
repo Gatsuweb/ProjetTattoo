@@ -13,7 +13,7 @@ function NavBar() {
     return (
       <section className="navbar">
         <Link to="/home" className="navLink">
-        <div className="Logo">Valkyr ink</div>
+        <div className="Logo">Valkyr Ink</div>
         </Link>
         <div className={`pages ${isOpen ? "open" : ""}`}>
           <ul>

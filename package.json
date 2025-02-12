@@ -20,12 +20,12 @@
     "@splinetool/runtime": "^1.7.8",
     "gsap": "^3.12.5",
     "lenis": "^1.1.13",
-    "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
     "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^6.23.0"
+    "react-router-dom": "^6.23.0",
+    "sass": "^1.84.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

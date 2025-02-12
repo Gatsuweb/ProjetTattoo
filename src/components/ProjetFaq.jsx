@@ -37,14 +37,14 @@ function ProjetFaq () {
                 <h2>Un projet ?</h2>
                 <div className="container-projet">
     
-                    <div className="projet-container">        
-                        <h3 className="questions" id="question-1">
+                    <div className="projet-container"  onClick={() => toggleReponseVisible("question-8")}>        
+                        <h3 className="questions" id="question-8">
                                 Motifs
                             </h3>
                             <button
                                 type="button"
                                 className="flechebas"
-                                onClick={() => toggleReponseVisible("question-1")}
+                               
                             >
                                 <img
                                 src={flecheTurn["question-1"]}
@@ -52,21 +52,21 @@ function ProjetFaq () {
                                 alt="icone fleche vers le bas"
                                 />
                             </button>
-                            {isReponseVisible["question-1"] && (
+                            {isReponseVisible["question-8"] && (
                                 <div className="reponse">
                                 Décrivez le motif souhaité - dites-nous ce que vous voulez que le design contienne ou ce que vous ne voulez pas du tout.
                                 Toute information est utile et précieuse.
                                 </div>
                             )}
                             </div>
-                    <div className="projet-container">
-                        <h3 className="questions" id="question-2">
+                    <div className="projet-container" onClick={() => toggleReponseVisible("question-5")}
+                    >
+                        <h3 className="questions" id="question-5">
                             Taille
                         </h3>
                         <button
                             type="button"
                             className="flechebas"
-                            onClick={() => toggleReponseVisible("question-2")}
                         >
                             <img
                             src={flecheTurn["question-2"]}
@@ -74,21 +74,21 @@ function ProjetFaq () {
                             alt="icone fleche vers le bas"
                             />
                         </button>
-                        {isReponseVisible["question-2"] && (
+                        {isReponseVisible["question-5"] && (
                             <div className="reponse">
                        Les dimensions souhaitées pour le tatouage doivent être exprimées en centimètres.
                             </div>
                         )}
                         </div>
 
-                    <div className="projet-container">
-                    <h3 className="questions" id="question-3">
+                    <div className="projet-container"  onClick={() => toggleReponseVisible("question-6")}>
+                    <h3 className="questions" id="question-6">
                         Zone
                     </h3>
                     <button
                         type="button"
                         className="flechebas"
-                        onClick={() => toggleReponseVisible("question-3")}
+                        onClick={() => toggleReponseVisible("question-6")}
                     >
                         <img
                         src={flecheTurn["question-3"]}
@@ -96,21 +96,21 @@ function ProjetFaq () {
                         alt="icone fleche vers le bas"
                         />
                     </button>
-                    {isReponseVisible["question-3"] && (
+                    {isReponseVisible["question-6"] && (
                         <div className="reponse">
                         Les informations sur la position ne sont pas nécessaires, mais elles sont très utiles. Chaque design est dessiné en corrélation avec la position,
                         car nous croyons qu&apos;un tatouage doit suivre la ligne du corps et en faire partie intégrante.
                         </div>
                     )}
                     </div>
-                    <div className="projet-container">
-                    <h3 className="questions" id="question-4">
+                    <div className="projet-container" onClick={() => toggleReponseVisible("question-7")}>
+                    <h3 className="questions" id="question-7">
                     Inspiration
                     </h3>
                     <button
                         type="button"
                         className="flechebas"
-                        onClick={() => toggleReponseVisible("question-4")}
+                        
                     >
                         <img
                         src={flecheTurn["question-4"]}
@@ -118,7 +118,7 @@ function ProjetFaq () {
                         alt="icone fleche vers le bas"
                         />
                     </button>
-                    {isReponseVisible["question-4"] && (
+                    {isReponseVisible["question-7"] && (
                         <div className="reponse">De la photographie, de l&apos;illustration, la musique, des films, des livres, la nature, un moment,
                          un objet, une personne ou un lieu, voire d&apos;autres tatouages - l&apos;inspiration pour un tatouage peut provenir de tout ce que vous souhaitez.
                          Sur la base des pièces jointes que vous nous envoyez.
