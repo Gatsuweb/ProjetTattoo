@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 import "../styles/Soin.css";
-import FicheSoin from "../assets/contact/fiche_de_soin.jpg";
+import FicheSoin from "../assets/contact/health.png";
 
 function Soin(props) {
     const { soinRef } = props;
