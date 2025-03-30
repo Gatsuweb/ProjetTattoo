@@ -99,7 +99,7 @@
 @media screen and (max-width: 1024px) {
  
     .avis-container h2 {
-        font-size: 3.8rem;
+        font-size: 4rem;
     }
 
 }
@@ -120,7 +120,7 @@
 @media screen and (max-width: 480px) {
     .avis-ornement {
         width: 600px;
-        left: -25%;
+        left: -30%;
     }
 
     .avis-card p {
@@ -129,6 +129,6 @@
     
     .avis-ornements {
         width:600px;
-        left: -25%;
+        left: -30%;
     }
 }
