@@ -48,11 +48,14 @@
     position: absolute;
     top:-12%;
     left: 0;
+    z-index: -1;
 }
 .avis-ornements {
     position: absolute;
     bottom:-12%;
     left: 0;
+    z-index: -1;
+
 }
 
 .google-reviews-button {

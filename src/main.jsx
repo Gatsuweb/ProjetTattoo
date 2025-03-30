@@ -8,6 +8,8 @@ import Galerie from './pages/Galerie';
 import Contact from './pages/Contact';
 import Flash from './pages/Flash';
 import Preloader from './components/Preloader';
+import Event from './pages/Event';
+import HautKerano from './pages/events/hauts-de-kerano';
 
 
 const router = createBrowserRouter([
@@ -19,6 +21,8 @@ const router = createBrowserRouter([
       { path: "/galerie", element: <Galerie /> },
       { path: "/flash", element: <Flash /> },
       { path: "/contact", element: <Contact /> },
+      { path: "/Event", element: <Event /> },
+      { path: "/Events/hauts-de-kerano", element: <HautKerano /> },
     ],
   },
 ]);
