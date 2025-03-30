@@ -9,6 +9,7 @@ import Soin from "../components/Soin";
 import BackgroundVideo from "../components/BackgroundVideo";
 import "../styles/NavBar.css";
 import Footer from "../components/Footer";
+import Avis from "../components/Avis";
 
 function Home() {
     const aboutRef = useRef(null);
@@ -53,6 +54,7 @@ function Home() {
                 <Elipse functionScroll={{ handleClick: scrollQuiSuisJe }} functionServiceScroll={{ handleClick: scrollService}} functionFaqScroll={{ handleClick: scrollFaq}} functionSoinScroll={{ handleClick: scrollSoin}}/>
                 <About ref={aboutRef} anotherRef={serviceRef}/>
                 <Soin soinRef={soinRef} />
+                <Avis />
                 <Faq faqRef={faqRef}/>
                 <Footer />
             </div>
