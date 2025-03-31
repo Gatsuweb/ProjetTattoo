@@ -227,7 +227,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-    transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .primary-button::before, .secondary-button::before {
@@ -342,8 +342,9 @@
 
 @media screen and (max-width: 480px) {
     .event-article-header h1 {
+        padding-top: 1%;
         font-size: 2.5rem;
-        margin-top: 15%;
+        height: 215px;
     }
     
     .event-date-large span:first-child {
