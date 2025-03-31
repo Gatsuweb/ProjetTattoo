@@ -13,6 +13,10 @@ function Footer () {
                     <img src={Insta} alt="" />
                     <a href="https://www.instagram.com/valkyr__ink/" target="_blank" rel="noopener noreferrer">Valkyr-ink</a>
                 </div>
+                <div className="insta-footer">
+                
+                    <a href="https://www.idevstudio.fr" target="_blank" rel="noopener noreferrer">Dev: I&apos;Dev studio</a>
+                </div>
             </div>
         </div>
     )

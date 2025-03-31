@@ -22,7 +22,7 @@ const router = createBrowserRouter([
       { path: "/flash", element: <Flash /> },
       { path: "/contact", element: <Contact /> },
       { path: "/Event", element: <Event /> },
-      { path: "/Events/hauts-de-kerano", element: <HautKerano /> },
+      { path: "/Event/hauts-de-kerano", element: <HautKerano /> },
     ],
   },
 ]);

@@ -26,8 +26,8 @@ function NavBar() {
             <Link to="/flash" className="navLink">
             <li>Flash</li>
             </Link>
-            <Link to="/contact" className="navLink" >
-            <li>Contact</li>
+            <Link to="/event" className="navLink" >
+            <li>Evenements</li>
             </Link>
           </ul>
         </div>
