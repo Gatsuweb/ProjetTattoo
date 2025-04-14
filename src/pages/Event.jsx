@@ -55,8 +55,8 @@ const Event = () => {
                 <section className="event-grid">
                     <article className="event-card">
                         <div className="event-date">
-                            <span>04</span>
-                            <span>AVR</span>
+                            <span>02</span>
+                            <span>MAI</span>
                         </div>
                         <div className="event-content">
                             <h3>Soirée Tapas</h3>

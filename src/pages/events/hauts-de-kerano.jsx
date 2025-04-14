@@ -8,7 +8,7 @@ import '../../styles/EventArticle.css';
 const HautKerano = () => {
     // Définir des variables pour faciliter la maintenance des informations d'événement
     const eventName = "Soirée Tatouage & Tapas aux Hauts de Kerano";
-    const eventDate = "2024-04-04";
+    const eventDate = "2024-02-05";
     const eventDescription = "Rejoignez-nous chaque premier vendredi du mois aux Hauts de Kerano à Paimpol pour une soirée unique mêlant tatouage et tapas. Flash tattoos et projets personnalisés disponibles dans une ambiance conviviale.";
     
     return (
@@ -16,7 +16,7 @@ const HautKerano = () => {
             <Helmet>
                 <title>{eventName} | Valkyr Ink Tattoo Bretagne</title>
                 <meta name="description" content={eventDescription} />
-                <meta name="keywords" content="tatouage paimpol, flash tattoo, soirée tatouage, les hauts de kerano, valkyr ink, tattoo bretagne, événement tatouage, artiste tatoueur, tatouage bretagne" />
+                <meta name="keywords" content="tatoueur paimpol, flash tattoo, événement paimpol, les hauts de kerano, valkyr ink, tattoo bretagne, événement tatouage, artiste tatoueur, tatouage Côtes-d'Armor" />
                 
                 {/* Open Graph Tags for social sharing */}
                 <meta property="og:title" content={eventName} />
@@ -79,8 +79,8 @@ const HautKerano = () => {
                 <header className="event-article-header">
                     <div className="event-date-large">
                         <time dateTime={eventDate}>
-                            <span>04</span>
-                            <span>AVR</span>
+                            <span>02</span>
+                            <span>MAI</span>
                         </time>
                     </div>
                     <h1 itemProp="name">Soiree Tatouage et Tapas aux Hauts de Kerano</h1>
