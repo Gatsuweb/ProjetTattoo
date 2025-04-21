@@ -32,7 +32,7 @@ const Event = () => {
                                 "name": "Soirée Tapas Tatouage",
                                 "startDate": "2025-05-02T18:00:00+02:00",
                                 "endDate": "2025-05-02T23:00:00+02:00",
-                                "url": "https://valkyrink-tattoo.com/event/hauts-de-kerano"
+                                "url": "https://valkyrink-tattoo.com/event/hauts-de-kerano",
                                 "location": {
                                     "@type": "Place",
                                     "name": "Les Hauts de Kerano",
