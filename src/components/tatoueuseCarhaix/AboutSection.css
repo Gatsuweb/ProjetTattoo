@@ -71,6 +71,10 @@
 }
 
 @media (max-width: 834px) {
+    .about-section {
+        min-height: 150vh;
+
+    }
     .about-content {
         flex-direction: column;
         
