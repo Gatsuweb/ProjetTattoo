@@ -10,6 +10,7 @@ import BackgroundVideo from "../components/BackgroundVideo";
 import "../styles/NavBar.css";
 import Footer from "../components/Footer";
 import Avis from "../components/Avis";
+import bgImage from "../assets/melbg.png";
 
 function Home() {
     const aboutRef = useRef(null);
@@ -48,7 +49,18 @@ function Home() {
     return (
         <>
             <div className="homepage">
-                <BackgroundVideo />
+                <div className="background-image" style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100vh',
+                    backgroundImage: `url(${bgImage})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: "50% 20%",
+                    zIndex: -1,
+                    opacity: 0.8
+                }}></div>
                 <NavBar />
                 <MainContent />
                 <Elipse functionScroll={{ handleClick: scrollQuiSuisJe }} functionServiceScroll={{ handleClick: scrollService}} functionFaqScroll={{ handleClick: scrollFaq}} functionSoinScroll={{ handleClick: scrollSoin}}/>

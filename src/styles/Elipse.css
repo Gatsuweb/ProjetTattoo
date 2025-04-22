@@ -17,13 +17,14 @@
 
 .elipses img {
     width: 100%;
+    height: 175px;
 }
 
 .elipses p {
     color: white;
     font-family: var(--subheading);
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     letter-spacing: 2px;
     position: absolute;
     top: 50%;
@@ -102,13 +103,13 @@
     }
 
     .elipses p {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         font-weight: 400;
-        left: 45%;
+        left: 50%;
     }
 
     .elipses img {
-        width: 90%;
+        width: 100%;
     }
 }
 @media screen and (max-width: 1024px) {
