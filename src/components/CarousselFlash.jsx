@@ -20,6 +20,12 @@ import Flash105 from "../assets/flash/flash105.jpg";
 import Flash106 from "../assets/flash/flash106.jpg";
 import Flash107 from "../assets/flash/flash107.jpg";
 import Flash108 from "../assets/flash/flash108.jpg";
+import Flash109 from "../assets/flash/flashx.jpg";
+import Flash110 from "../assets/flash/flashxx.jpg";
+import Flash111 from "../assets/flash/flashxxx.jpg";
+import Flash112 from "../assets/flash/flashxxxx.jpg";
+import Flash113 from "../assets/flash/flashxxxxx.jpg";
+import Flash114 from "../assets/flash/raie.jpg";
 
 import "../styles/CarousselFlash.css"
 
@@ -27,6 +33,24 @@ export const CarousselFlash = () => {
   return (
     <div className="carousselContainer">
     <Carousel showArrows={true} onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb} thumbWidth={50}  className="carousselContent">
+    <div>
+        <img src={Flash109} />
+    </div>
+    <div>
+        <img src={Flash114} />
+    </div>
+    <div>
+        <img src={Flash113} />
+    </div>
+    <div>
+        <img src={Flash110} />
+    </div>
+    <div>
+        <img src={Flash111} />
+    </div>
+    <div>
+        <img src={Flash112} />
+    </div>
     <div>
         <img src={Flash1} />
     </div>

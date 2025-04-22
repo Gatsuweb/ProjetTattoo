@@ -16,6 +16,7 @@ import Floating12 from "../assets/galerie2/tatoo12.jpg";
 import Floating13 from "../assets/galerie2/tatoo13.jpg";
 import Floating14 from "../assets/galerie2/tatoo14.jpg";
 import Floating15 from "../assets/galerie2/tattoo15.jpg";
+
 import Modal from '../components/ModalTattoo';
 
 const tattooData = [
