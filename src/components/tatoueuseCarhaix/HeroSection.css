@@ -193,7 +193,9 @@
 }
 
 @media (max-width: 480px) {
-
+    .heroCarhaix-content {
+        margin-top: -8rem;
+    }
     .imgElipseCarhaix {
         display: none;
     }
