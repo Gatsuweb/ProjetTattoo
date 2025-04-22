@@ -1,0 +1,73 @@
+/* Reviews Section */
+.reviews-section {
+    background-color: #111;
+    padding: 80px 0;
+}
+
+.reviews-container {
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+/* Update these font-size properties in your existing CSS */
+
+.reviews-section h2 {
+    font-family: var(--subheading);
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 100;
+}
+
+.reviews-section span {
+    font-family: var(--subheading);
+    line-height: 0.2;
+    font-size: clamp(5rem, 10vw, 10rem);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color: transparent;
+    width: 100vw;
+}
+
+.review-stars {
+    color: gold;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    margin-bottom: 15px;
+}
+
+.review-text {
+    font-family: var(--body);
+    font-style: italic;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+}
+
+.review-author {
+    font-family: var(--body);
+    text-align: right;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: clamp(0.8rem, 1.5vw, 0.9rem);
+}
+
+.section-number {
+    font-size: clamp(5rem, 10vw, 10rem);
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.review-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+}

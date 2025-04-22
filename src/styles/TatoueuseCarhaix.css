@@ -1,0 +1,16 @@
+.tatoueuseCarhaix {
+    color: white;
+}
+
+.stickyContainer {
+    position: relative;
+    height: 100%;
+}
+
+.divSticky {
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+     height: 100vh;
+}

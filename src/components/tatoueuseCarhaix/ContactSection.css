@@ -1,0 +1,96 @@
+/* Contact Section */
+.contact-section {
+    background-color: #000;
+    padding: 80px 0;
+    position: relative;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-section h2 {
+    font-family: var(--subheading);
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 100;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-info h3 {
+    font-family: var(--heading);
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-family: var(--body);
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+}
+
+.contact-cta {
+    margin-top: 30px;
+}
+
+.contact-map {
+    flex: 1;
+    min-width: 200px;
+    overflow: hidden;
+    filter: grayscale(1);
+}
+
+.btnContact {
+    font-family: var(--body);
+    background-color: #000;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+
+.section-number {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-family: var(--subheading);
+    font-size: clamp(5rem, 10vw, 10rem);
+    line-height: 0.8;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color: transparent;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+@media (max-width: 834px) {
+    .contact-content {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    
+    .contact-section {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-section {
+text-align: center;    }
+}

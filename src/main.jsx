@@ -10,6 +10,7 @@ import Flash from './pages/Flash';
 import Preloader from './components/Preloader';
 import Event from './pages/Event';
 import HautKerano from './pages/events/hauts-de-kerano';
+import TatoueuseCarhaix from './pages/tatoueuse-carhaix';
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
       { path: "/contact", element: <Contact /> },
       { path: "/Event", element: <Event /> },
       { path: "/Event/hauts-de-kerano", element: <HautKerano /> },
+      { path: "/tatoueuse-carhaix", element: <TatoueuseCarhaix /> },    
     ],
   },
 ]);

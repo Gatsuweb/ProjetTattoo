@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 
-import VideoMp4 from "../assets/vid4.mov";
-import VideoWebm from "../assets/vid4.webm";
+import VideoMp4 from "../assets/bgVideo.mov";
+import VideoWebm from "../assets/bgVideo.mov";
 // import FallbackImage from "../assets/fallback.png";
 import "../styles/BackgroundVideo.css";
 
