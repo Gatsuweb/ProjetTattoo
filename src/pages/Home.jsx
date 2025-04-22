@@ -50,14 +50,15 @@ function Home() {
         <>
             <div className="homepage">
                 <div className="background-image" style={{
-                    position: 'absolute',
+                    position: 'fixed',
                     top: 0,
                     left: 0,
                     width: '100%',
-                    height: '100vh',
+                    height: '100%',
                     backgroundImage: `url(${bgImage})`,
                     backgroundSize: 'cover',
-                    backgroundPosition: "50% 20%",
+                    backgroundPosition: "65% 20%",
+                    backgroundRepeat: 'no-repeat',
                     zIndex: -1,
                     opacity: 0.8
                 }}></div>

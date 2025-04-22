@@ -67,7 +67,7 @@ const GallerySection = () => {
         <div className="gallery-header">
           <div>
             <h2>Galerie</h2>
-            <p className="gallery-subtitle">Découvrez un aperçu de mon univers et des projets que j&apos;ai eu le plaisir d&apos;encrer</p>
+            <p className="gallery-subtitle">Découvrez mon univers et des projets que j&apos;ai eu le plaisir d&apos;encrer</p>
           </div>
         </div>
         
