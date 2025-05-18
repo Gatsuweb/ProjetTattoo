@@ -7,6 +7,7 @@ import GallerySection from "../components/tatoueuseCarhaix/GallerySection";
 import ReviewsSection from "../components/tatoueuseCarhaix/ReviewsSection";
 import ContactSection from "../components/tatoueuseCarhaix/ContactSection";
 import "../styles/TatoueuseCarhaix.css";
+import FaqSection from "../components/tatoueuseCarhaix/FaqSection";
 
 export default function TatoueuseCarhaix() {
   return (
@@ -42,6 +43,7 @@ export default function TatoueuseCarhaix() {
         <div className="divSticky">
           <GallerySection />
           <ReviewsSection />
+          <FaqSection />
           <ContactSection />
           <Footer />
         </div>
