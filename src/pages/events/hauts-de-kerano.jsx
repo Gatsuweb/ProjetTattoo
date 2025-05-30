@@ -79,8 +79,8 @@ const HautKerano = () => {
                 <header className="event-article-header">
                     <div className="event-date-large">
                         <time dateTime={eventDate}>
-                            <span>02</span>
-                            <span>MAI</span>
+                            <span>06</span>
+                            <span>JUIN</span>
                         </time>
                     </div>
                     <h1 itemProp="name">Soiree Tatouage et Tapas aux Hauts de Kerano</h1>
