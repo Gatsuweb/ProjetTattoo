@@ -8,7 +8,7 @@ import '../../styles/EventArticle.css';
 const HautKerano = () => {
     // Définir des variables pour faciliter la maintenance des informations d'événement
     const eventName = "Soirée Tatouage & Tapas aux Hauts de Kerano";
-    const eventDate = "2024-02-05";
+    const eventDate = "2025-06-06";
     const eventDescription = "Rejoignez-nous chaque premier vendredi du mois aux Hauts de Kerano à Paimpol pour une soirée unique mêlant tatouage et tapas. Flash tattoos et projets personnalisés disponibles dans une ambiance conviviale.";
     
     return (
