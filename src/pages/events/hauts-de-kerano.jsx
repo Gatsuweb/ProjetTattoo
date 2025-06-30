@@ -8,7 +8,7 @@ import '../../styles/EventArticle.css';
 const HautKerano = () => {
     // Définir des variables pour faciliter la maintenance des informations d'événement
     const eventName = "Soirée Tatouage & Tapas aux Hauts de Kerano";
-    const eventDate = "2025-06-06";
+    const eventDate = "2025-07-04";
     const eventDescription = "Rejoignez-nous chaque premier vendredi du mois aux Hauts de Kerano à Paimpol pour une soirée unique mêlant tatouage et tapas. Flash tattoos et projets personnalisés disponibles dans une ambiance conviviale.";
     
     return (
@@ -79,8 +79,8 @@ const HautKerano = () => {
                 <header className="event-article-header">
                     <div className="event-date-large">
                         <time dateTime={eventDate}>
-                            <span>06</span>
-                            <span>JUIN</span>
+                            <span>04</span>
+                            <span>JUILLET</span>
                         </time>
                     </div>
                     <h1 itemProp="name">Soiree Tatouage et Tapas aux Hauts de Kerano</h1>

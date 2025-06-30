@@ -30,8 +30,8 @@ const Event = () => {
                             {
                                 "@type": "Event",
                                 "name": "Soirée Tapas Tatouage",
-                                "startDate": "2025-06-06T18:00:00+02:00",
-                                "endDate": "2025-06-06T23:00:00+02:00",
+                                "startDate": "2025-07-04T18:00:00+02:00",
+                                "endDate": "2025-07-04T23:00:00+02:00",
                                 "url": "https://valkyrink-tattoo.com/event/hauts-de-kerano",
                                 "location": {
                                     "@type": "Place",
@@ -55,8 +55,8 @@ const Event = () => {
                 <section className="event-grid">
                     <article className="event-card">
                         <div className="event-date">
-                            <span>06</span>
-                            <span>JUIN</span>
+                            <span>04</span>
+                            <span>JUILLET</span>
                         </div>
                         <div className="event-content">
                             <h3>Soirée Tapas</h3>
