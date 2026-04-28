@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import Modal from 'react-modal';
 import GalerieFlash from "../components/GalerieFlash";
 import { CarousselFlash } from "../components/CarousselFlash";
+import { Link } from "react-router-dom";
 import "../styles/Flash.css";
 
 
@@ -23,12 +24,17 @@ function Flash() {
             <section className="container-flash">
                 <NavBar />
                 <h1>Galerie des Flashs</h1>
+                <div className="flash-header">
+                    <p>Découvrez mes créations originales disponibles immédiatement</p>
+                    <Link to="/reservation-flash" className="reserve-button">
+                        Réserve ton flash
+                    </Link>
+                </div>
                 <CarousselFlash />
-            <div >
-                <GalerieFlash />
-           
-            </div>
-        </section>
+                <div>
+                    <GalerieFlash />
+                </div>
+            </section>
         </>
     );
 }

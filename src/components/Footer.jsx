@@ -1,5 +1,6 @@
 import Insta from "../assets/contact/insta.svg"
 import Mail from "../assets/contact/mail.svg"
+import { Link } from "react-router-dom"
 import "../styles/Footer.css"
 function Footer () {
     return(
@@ -16,6 +17,9 @@ function Footer () {
                 <div className="insta-footer">
                 
                     <a href="https://www.idevstudio.fr" target="_blank" rel="noopener noreferrer">Dev: I&apos;Dev studio</a>
+                </div>
+                <div className="insta-footer">
+                    <Link to="/tatoueuse-carhaix">Page Carhaix</Link>
                 </div>
             </div>
         </div>

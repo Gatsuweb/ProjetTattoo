@@ -26,7 +26,7 @@ const router = createBrowserRouter([
       { path: "/contact", element: <Contact /> },
       { path: "/Event", element: <Event /> },
       { path: "/Event/hauts-de-kerano", element: <HautKerano /> },
-      { path: "/tatoueuse-carhaix", element: <TatoueuseCarhaix /> },    
+      { path: "/tatoueuse-carhaix", element: <TatoueuseCarhaix /> },
       // { path: "/reservation-flash", element: <ReservationFlash /> },    
     ],
   },

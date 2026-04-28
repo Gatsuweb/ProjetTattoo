@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./ContactSection.css";
 
 const ContactSection = () => {
@@ -17,6 +16,9 @@ const ContactSection = () => {
             <div className="contact-cta">
               <a href="mailto:valkyrink@outlook.com" target="_blank" rel="noopener noreferrer">
                 <button className="btnContact">Prendre rendez-vous</button>
+              </a>
+              <a href="mailto:valkyrink@outlook.com" target="_blank" rel="noopener noreferrer">
+                <button className="btnContact btnGift">Demander un chèque cadeau</button>
               </a>
             </div>
           </div>

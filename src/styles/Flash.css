@@ -10,6 +10,52 @@
     align-items: center;
 }
 
+/* ... existing code ... */
+
+.flash-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.flash-header p {
+    margin-bottom: 1.5rem;
+    font-family: var(--body);
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+}
+
+.reserve-button {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 0.8rem 2rem;
+    font-family: var(--body);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.reserve-button:hover {
+    background-color: white;
+    color: black;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .reserve-button {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
 .container-flash h1 {
     display: flex;
     justify-content: center;

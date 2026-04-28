@@ -60,6 +60,7 @@ const About = React.forwardRef((props, ref) => {
                     Cet appareil électrique est composé d&apos;une aiguille qui dépose l&apos;encre entre le derme et l&apos;épiderme, entre 2 et 4 millimètres de profondeur.
                     <br />
                     Je tatoue principalement en noir et gris. Les motifs colorés sont au cas par cas.<br />
+                    Les <a href="mailto:valkyrink@outlook.com" style={{color: "white", textDecoration: "underline"}}>chèques cadeaux tatouage</a> sont disponibles toute l&apos;année pour offrir un projet personnalisé.<br />
                     Je ne pratique pas la pose de piercings.
                     </p>
                     <div className="prez-services">

@@ -1,0 +1,142 @@
+.reservation-container {
+    min-height: 100vh;
+    background-color: #000;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.reservation-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.reservation-content h1 {
+    font-family: var(--subheading);
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 100;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.reservation-intro {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: var(--body);
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.reservation-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group.full-width {
+    grid-column: span 2;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    font-family: var(--body);
+    font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    font-family: var(--body);
+    border-radius: 4px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: white;
+}
+
+.checkbox-group {
+    grid-column: span 2;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.checkbox-group input {
+    margin-top: 0.3rem;
+}
+
+.submit-button {
+    grid-column: span 2;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+    font-family: var(--body);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.reservation-info {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.reservation-info h2 {
+    font-family: var(--subheading);
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.reservation-info ul {
+    padding-left: 1.5rem;
+}
+
+.reservation-info li {
+    margin-bottom: 0.8rem;
+    font-family: var(--body);
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .reservation-form {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-group.full-width {
+        grid-column: span 1;
+    }
+    
+    .checkbox-group {
+        grid-column: span 1;
+    }
+    
+    .submit-button {
+        grid-column: span 1;
+    }
+}
