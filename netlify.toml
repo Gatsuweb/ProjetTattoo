@@ -4,6 +4,24 @@
     Content-Type = "video/mp4"
 
 [[redirects]]
+  from = "/Home"
+  to = "/home"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/Event"
+  to = "/event"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/Event/*"
+  to = "/event/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200

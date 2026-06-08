@@ -6,11 +6,11 @@ import MainContent from "../components/MainContent";
 import NavBar from "../components/NavBar";
 import Faq from "../components/Faq";
 import Soin from "../components/Soin";
-import BackgroundVideo from "../components/BackgroundVideo";
 import "../styles/NavBar.css";
 import Footer from "../components/Footer";
 import Avis from "../components/Avis";
 import bgImage from "../assets/melbg.png";
+import LocalSeoLinks from "../components/LocalSeoLinks";
 
 function Home() {
     const aboutRef = useRef(null);
@@ -68,6 +68,7 @@ function Home() {
                 <About ref={aboutRef} anotherRef={serviceRef}/>
                 <Soin soinRef={soinRef} />
                 <Avis />
+                <LocalSeoLinks />
                 <Faq faqRef={faqRef}/>
                 <Footer />
             </div>

@@ -23,7 +23,7 @@ const HautKerano = () => {
                 <meta property="og:description" content={eventDescription} />
                 <meta property="og:image" content={conventionImage} />
                 <meta property="og:type" content="event" />
-                <meta property="og:url" content="https://valkyrink-tattoo.com/events/hauts-de-kerano" />
+                <meta property="og:url" content="https://valkyrink-tattoo.com/event/hauts-de-kerano" />
                 <meta property="og:site_name" content="Valkyr Ink Tattoo" />
                 
                 {/* Twitter Card data */}
@@ -33,7 +33,7 @@ const HautKerano = () => {
                 <meta name="twitter:image" content={conventionImage} />
                 
 
-                <link rel="canonical" href="https://valkyrink-tattoo.com/events/hauts-de-kerano" />
+                <link rel="canonical" href="https://valkyrink-tattoo.com/event/hauts-de-kerano" />
                 
 
                 <script type="application/ld+json">
