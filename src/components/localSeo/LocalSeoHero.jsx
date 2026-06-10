@@ -28,7 +28,7 @@ function LocalSeoHero({ page }) {
       <div className="localSeoHero-bottom">
         <span>{currentDate}</span>
         <div className="localSeoHero-icons">
-          <a href="mailto:valkyrink@outlook.com" aria-label="Envoyer un mail a Valkyr Ink" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:valkyrink@outlook.com" aria-label="Envoyer un mail à Valkyr Ink" target="_blank" rel="noopener noreferrer">
             <img src={Mail} alt="" />
           </a>
           <a href="https://www.instagram.com/valkyr__ink/" aria-label="Voir Valkyr Ink sur Instagram" target="_blank" rel="noopener noreferrer">
@@ -39,7 +39,7 @@ function LocalSeoHero({ page }) {
           </a>
         </div>
         <Link to="/galerie" className="localSeoHero-medallion">
-          <img src={mel} alt={`Galerie de tatouages Valkyr Ink pres de ${page.shortVille}`} />
+          <img src={mel} alt={`Galerie de tatouages Valkyr Ink près de ${page.shortVille}`} />
         </Link>
       </div>
     </section>

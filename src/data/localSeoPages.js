@@ -59,7 +59,7 @@ const pages = [
     ville: "Plevin",
     shortVille: "Plevin",
     distanceText: "directement à Plevin, là où se trouve le studio",
-    title: "Tatoueuse a Plevin - Valkyr Ink, salon prive en Centre Bretagne",
+    title: "Tatoueuse à Plevin - Valkyr Ink, salon privé en Centre Bretagne",
     description:
       "Tatoueuse à Plevin : je vous accueille sur rendez-vous dans mon salon privé, artistique et intimiste, en Centre Bretagne.",
     h1: "Tatoueuse a Plevin",
@@ -73,7 +73,7 @@ const pages = [
     ville: "Carhaix-Plouguer",
     shortVille: "Carhaix",
     distanceText: "à quelques minutes de Carhaix-Plouguer",
-    title: "Tatoueuse pres de Carhaix - Valkyr Ink a Plevin",
+    title: "Tatoueuse près de Carhaix - Valkyr Ink à Plevin",
     description:
       "Tatoueuse près de Carhaix-Plouguer : je vous accueille à Plevin, dans mon salon privé en Centre Bretagne, pour créer un projet de tatouage sur-mesure.",
     h1: "Tatoueuse pres de Carhaix",
@@ -87,7 +87,7 @@ const pages = [
     ville: "Rostrenen",
     shortVille: "Rostrenen",
     distanceText: "à proximité de Rostrenen par les routes du Centre Bretagne",
-    title: "Tatoueuse pres de Rostrenen - Valkyr Ink, salon prive a Plevin",
+    title: "Tatoueuse près de Rostrenen - Valkyr Ink, salon privé à Plevin",
     description:
       "Tatoueuse près de Rostrenen : je vous accompagne pour un projet personnalisé ou un flash dans mon salon privé à Plevin, en Centre Bretagne.",
     h1: "Tatoueuse pres de Rostrenen",
@@ -101,7 +101,7 @@ const pages = [
     ville: "Gourin",
     shortVille: "Gourin",
     distanceText: "dans le secteur de Gourin et du Centre Bretagne",
-    title: "Tatoueuse pres de Gourin - Valkyr Ink en Centre Bretagne",
+    title: "Tatoueuse près de Gourin - Valkyr Ink en Centre Bretagne",
     description:
       "Vous cherchez une tatoueuse près de Gourin ? Je réalise des tatouages personnalisés et des flashs dans mon salon privé à Plevin.",
     h1: "Tatoueuse pres de Gourin",
@@ -115,7 +115,7 @@ const pages = [
     ville: "Callac",
     shortVille: "Callac",
     distanceText: "accessible depuis Callac et les communes voisines",
-    title: "Tatoueuse pres de Callac - Valkyr Ink a Plevin",
+    title: "Tatoueuse près de Callac - Valkyr Ink à Plevin",
     description:
       "Tatoueuse près de Callac : je vous accompagne pour un projet de tatouage sur-mesure dans mon salon privé à Plevin.",
     h1: "Tatoueuse pres de Callac",
@@ -129,7 +129,7 @@ const pages = [
     ville: "Huelgoat",
     shortVille: "Huelgoat",
     distanceText: "pour les personnes venant de Huelgoat et des Monts d'Arrée",
-    title: "Tatoueuse pres de Huelgoat - Valkyr Ink, univers artistique",
+    title: "Tatoueuse près de Huelgoat - Valkyr Ink, univers artistique",
     description:
       "Tatoueuse près de Huelgoat : je vous accompagne à Plevin pour créer un projet de tatouage personnalisé, dans un univers artistique et intime.",
     h1: "Tatoueuse pres de Huelgoat",
@@ -143,7 +143,7 @@ const pages = [
     ville: "Mael-Carhaix",
     shortVille: "Mael-Carhaix",
     distanceText: "tout près de Mael-Carhaix",
-    title: "Tatoueuse pres de Mael-Carhaix - Valkyr Ink a Plevin",
+    title: "Tatoueuse près de Mael-Carhaix - Valkyr Ink à Plevin",
     description:
       "Tatoueuse près de Mael-Carhaix : je vous reçois dans mon salon privé à Plevin pour des projets personnalisés, des flashs et un accompagnement sur rendez-vous.",
     h1: "Tatoueuse pres de Mael-Carhaix",
@@ -157,7 +157,7 @@ const pages = [
     ville: "Plouguernevel",
     shortVille: "Plouguernevel",
     distanceText: "dans le secteur de Plouguernevel et Rostrenen",
-    title: "Tatoueuse pres de Plouguernevel - Valkyr Ink a Plevin",
+    title: "Tatoueuse près de Plouguernevel - Valkyr Ink à Plevin",
     description:
       "Tatoueuse près de Plouguernevel : je crée des tatouages personnalisés et des flashs dans mon salon privé en Centre Bretagne.",
     h1: "Tatoueuse pres de Plouguernevel",
@@ -171,7 +171,7 @@ const pages = [
     ville: "Chateauneuf-du-Faou",
     shortVille: "Chateauneuf-du-Faou",
     distanceText: "pour les personnes venant de Chateauneuf-du-Faou et du Centre Finistère",
-    title: "Tatoueuse pres de Chateauneuf-du-Faou - Valkyr Ink a Plevin",
+    title: "Tatoueuse près de Chateauneuf-du-Faou - Valkyr Ink à Plevin",
     description:
       "Tatoueuse près de Chateauneuf-du-Faou : je vous accompagne à Plevin pour construire un projet de tatouage personnalisé en Centre Bretagne.",
     h1: "Tatoueuse pres de Chateauneuf-du-Faou",

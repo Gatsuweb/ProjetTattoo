@@ -15,18 +15,18 @@ function LocalSeoGallery({ page }) {
       <span className="localSeoNumber">05</span>
       <div className="localSeoGallery-inner">
         <h2>Galerie</h2>
-        <p>Quelques pieces et inspirations de l&apos;univers Valkyr Ink pour imaginer votre projet pres de {page.shortVille}.</p>
+        <p>Quelques pièces et inspirations de l&apos;univers Valkyr Ink pour imaginer votre projet près de {page.shortVille}.</p>
         <div className="localSeoGallery-grid">
           {galleryImages.map((image, index) => (
             <img
               src={image}
-              alt={`Tatouage realise par Valkyr Ink pres de ${page.shortVille} - creation ${index + 1}`}
+              alt={`Tatouage réalisé par Valkyr Ink près de ${page.shortVille} - création ${index + 1}`}
               key={image}
             />
           ))}
         </div>
         <Link to="/galerie" className="localSeoTextLink">
-          Voir la galerie complete
+          Voir la galerie complète
         </Link>
       </div>
     </section>

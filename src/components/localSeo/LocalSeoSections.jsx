@@ -6,7 +6,7 @@ function LocalSeoSections({ page }) {
     <section className="localSeoSections">
       <div className="localSeoIntro">
         <div className="localSeoIntro-image">
-          <img src={melanie} alt={`Melanie, tatoueuse pres de ${page.shortVille}`} />
+          <img src={melanie} alt={`Melanie, tatoueuse près de ${page.shortVille}`} />
         </div>
         <div className="localSeoIntro-text">
           <div className="localSeoSectionTitle">
